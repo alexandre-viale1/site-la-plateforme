@@ -1,0 +1,163 @@
+/* Début accueil */
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.accueil {
+    background-color:#336699;
+    max-height: 1000px;
+}
+
+
+header{
+    background: white;
+    width: 100% ;
+    flex-direction: row;
+    align-items:center;
+    display: inline-flex;
+}
+#presentation {
+    color: aliceblue;
+    margin: 50px;
+    padding: 30px;
+
+    
+}
+p {
+    margin: 20px;
+    font-size: 32px
+}
+#d {
+    color: aliceblue;
+    margin: 70px;
+    padding-left: 80px;
+}
+#inscription {
+    color: aliceblue;
+    margin: 70px;
+    padding-left: 80px;
+    border: 1px;
+    border-color: #FF2063; 
+    border-style: solid;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 200px;
+}
+h3 {
+    background-color: #FF2063;
+}
+#image {
+    display: inline-flex;
+
+    height: 45%;
+    width: 45%;
+}
+#accueil {
+    display: flex;
+    flex-direction: row;
+}
+/* Fin accueil */
+
+
+/* Début qui sommes nous ? */
+
+.qui-sommes-nous {
+    background-color: white;
+}
+#titre {
+    padding-left: 222px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.gauche {
+    padding-left: 140px;
+    font-size: 20px;
+    color: #7D7D85;
+    width: 30%;
+}
+.droite {
+    margin: 80px;
+    padding-left: 140px;
+    font-size: 20px;
+    color: #7D7D85;
+    width: 30%;
+
+}
+p {
+    margin: 15px;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+}
+.sponsor{
+    padding-left: 140px;
+    margin: 10px;
+}
+
+.footer {
+    /* border: 20px; */
+    /* border-style: solid; */
+    /* border-width: 20px; */
+    /* border-color: #313131; */
+    background-color:#313131;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+}
+
+.fin-page {
+    margin: 5px;
+    /* padding-left: 600px; */
+}
+
+.fin-page2 {
+    margin: 5px;
+    /* padding-left: 800px; */
+}
+#plateforme-logo {
+    width: 25%;
+    height: 25%;
+    padding-bottom: 100px;
+    padding-right: 200px;
+
+}
+/* fin qui sommes-nous */
+
+
+/* début news */
+
+.news {
+    background-color: #336699;
+}
+#titre-news {
+    color:white;
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 47px;
+}
+#texte-news {
+    color: white ;
+    padding-left: 200px;
+    font-size: 18px;
+}
+#video {
+    padding-left: 150px;
+    padding-top: 150px;
+}
+#new {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+}
+.a {
+    color: white;
+}
+/* fin news  */
